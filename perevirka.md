@@ -78,8 +78,8 @@
 ### Технічна перевірка скриптом
 
 ```bash
-py "D:/AI Cowork/.claude/skills/kursova-dteu/scripts/check_kursova.py" "шлях/до/Курсова.docx"
-py "D:/AI Cowork/.claude/skills/kursova-dteu/scripts/check_kursova.py" "шлях/до/Курсова.docx" --online   # + перевірка URL і DOI
+python "<папка скіла>/scripts/check_kursova.py" "шлях/до/Курсова.docx"
+python "<папка скіла>/scripts/check_kursova.py" "шлях/до/Курсова.docx" --online   # + перевірка URL і DOI
 ```
 Скрипт перевіряє: поля, шрифт, кегль, інтервал, наявність структурних заголовків, тире, «я», посилання ↔ список, згадки таблиць і рисунків, формат записів ДСТУ 8302, свіжість джерел, ключові елементи вступу, оцінку обсягу. Усі ❌ виправити, ⚠ переглянути.
 
